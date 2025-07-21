@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+
+		<!-- 
+      Esta é a linha mais importante. 
+      Ela diz ao compilador para usar o .NET 8 e as APIs do Windows SDK.
+      Se você estiver usando .NET 6 ou 7, mude para net6.0 ou net7.0.
+    -->
+		<TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+
+		<!-- 
+      Esta linha força a compilação para x64, resolvendo o conflito 
+      entre "Any CPU" e "x64" que vimos antes.
+    -->
+		<PlatformTarget>x64</PlatformTarget>
+
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>
