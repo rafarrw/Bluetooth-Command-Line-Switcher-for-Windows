@@ -69,8 +69,6 @@ If you prefer to build the executable yourself, you can publish it as a single, 
         -   Check the box for **"Produce single file"**.
     -   Click **Save**.
 
-    ![Publish Profile Settings](https://i.imgur.com/gA3S3y1.png) 
-
 5.  **Publish:**
     -   Click the **Publish** button in the top right.
 
